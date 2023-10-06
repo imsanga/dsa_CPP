@@ -1,5 +1,5 @@
 // Bubble Sort - GFG
-// Note : push the max element to last by adjacent swapping
+// Note : push the max element to last by (adjacent swapping)
 
 
 //{ Driver Code Starts

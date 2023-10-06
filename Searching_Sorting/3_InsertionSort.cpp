@@ -1,3 +1,7 @@
+// Insertion Sort - GFG
+// Note -  if current element is lesser than predecessor(previous) element, swap it!
+
+
 //{ Driver Code Starts
 // C program for insertion sort
 #include <stdio.h>
