@@ -46,3 +46,20 @@ int main()
     }
 }
 // } Driver Code Ends
+
+
+// Optimal Approach
+
+// class Solution{
+// public:
+//     int remove_duplicate(int a[],int n){
+//         int dummy = INT_MIN, x = 0;
+//         for(int i = 0; i < n; i++) {
+//             if(a[i] != dummy) {
+//                 dummy = a[i];
+//                 a[x++] = a[i];
+//             }
+//         }
+//         return x;
+//     }
+// };
