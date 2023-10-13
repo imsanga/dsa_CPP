@@ -111,5 +111,27 @@ int main() {
 
 
 
+// Two Pointer Appraoach 
+// Note : This apprpoach is only applicable for positice arrays
+
+// int longestSubarrayWithSumK(vector<int> a, long long k) {
+//     int left = 0, right = 0, maxy = 0, n = a.size();
+//     long long sum = a[0];
+//     while(right < n) {
+//         while(left <= right && sum > k) {
+//             sum -= a[left];
+//             left++;
+//         }
+        
+//         if(sum == k) maxy = max(maxy, right - left + 1);
+        
+//         right++;
+//         sum += a[right];    
+//     }
+//     return maxy;   
+// }
+
+
+
 
 
