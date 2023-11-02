@@ -31,6 +31,18 @@ int main() {
 }
 // } Driver Code Ends
 
+/*
+void nStarTriangle(int n) {
+    for(int i = 1; i <= n; i++) {
+        //space
+        for(int j = 1; j <= n-i; j++) cout << " ";
+        //pattern
+        for(int k = 1; k <= 2*i-1; k++) cout << "*";
+        cout << endl;
+    }
+}
+*/
+
 /* o/p
 
     *
